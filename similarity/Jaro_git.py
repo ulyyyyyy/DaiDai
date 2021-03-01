@@ -1,7 +1,7 @@
 # Copyright (c) 2021 heihei & daidai
 
-from similarity.me.string_distance import NormalizedStringDistance
-from similarity.me.string_similarity import NormalizedStringSimilarity
+from similarity.method.string_distance import NormalizedStringDistance
+from similarity.method.string_similarity import NormalizedStringSimilarity
 
 
 class JaroWinkler(NormalizedStringSimilarity, NormalizedStringDistance):

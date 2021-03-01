@@ -1,8 +1,8 @@
 # Copyright (c) 2021 hei & dai
 
 from similarity.shingle_based import ShingleBased
-from similarity.me.string_distance import NormalizedStringDistance, MetricStringDistance
-from similarity.me.string_similarity import NormalizedStringSimilarity
+from similarity.method.string_distance import NormalizedStringDistance, MetricStringDistance
+from similarity.method.string_similarity import NormalizedStringSimilarity
 
 
 class Jaccard(ShingleBased, MetricStringDistance, NormalizedStringDistance, NormalizedStringSimilarity):

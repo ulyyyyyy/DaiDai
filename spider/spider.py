@@ -16,7 +16,7 @@ heade = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
     "Accept-Language": "zh-CN,zh;q=0.9"
 }
-c
+
 ROW = [1]
 
 f = xlwt.Workbook(encoding="utf-8")

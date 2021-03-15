@@ -1,9 +1,8 @@
 import re
 import xlrd
-import jieba
 import jieba.analyse
 
-data = xlrd.open_workbook_xls("data.xls")
+data = xlrd.open_workbook_xls("./process/process.xls")
 
 table = data.sheet_by_index(0)  # 通过索引顺序获取
 

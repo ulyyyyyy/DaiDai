@@ -67,9 +67,9 @@ if __name__ == '__main__':
         b = "  ".join(w for w in list(jieba.cut(data)) if w not in stopwords)
         corpus.append(b)
 
-    no_features = 1000
+    # no_features = 1000
     #
-    tfidf = TfidfVectorizer(max_features=no_features)
+    tfidf = TfidfVectorizer()
     tfidf_features = tfidf.fit_transform(corpus)
     tfidf_feature_names = tfidf.get_feature_names()
 

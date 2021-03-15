@@ -32,7 +32,7 @@ class Jaccard(ShingleBased, MetricStringDistance, NormalizedStringDistance, Norm
         inter = int(len(profile0.keys()) + len(profile1.keys()) - len(union))
         return 1.0 * inter / len(union)
 
-
-jaccard = Jaccard(3)
-t = jaccard.similarity("王者荣耀", "王者荣耀的测试")
-print(t)
+#
+# jaccard = Jaccard(3)
+# t = jaccard.similarity("王者荣耀", "王者荣耀的测试")
+# print(t)
